@@ -1,59 +1,173 @@
-# AngularProjetoDapper
+# 💰 AngularProjetoDapper
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.1.3.
+Aplicação **Frontend desenvolvida em Angular** para gerenciamento financeiro, consumindo uma API desenvolvida em **ASP.NET Core utilizando Dapper**.
 
-## Development server
+O sistema permite visualizar informações financeiras, registrar transações e acompanhar dados através de um **dashboard interativo**.
 
-To start a local development server, run:
+---
+
+# 📷 Visão Geral
+
+O projeto possui uma interface moderna construída com Angular que se comunica com uma API backend para:
+
+- Gerenciar transações financeiras
+- Visualizar categorias de gastos
+- Exibir relatórios e dashboards
+- Criar e editar registros financeiros
+
+---
+
+# 🛠️ Tecnologias Utilizadas
+
+### Frontend
+- Angular
+- TypeScript
+- Angular Material
+- HTML5
+- CSS3
+
+### Integração
+- Consumo de API REST
+- Comunicação com backend ASP.NET Core
+
+---
+
+# 📂 Estrutura do Projeto
+
+```
+src
+ ├── app
+ │   ├── dashboard-component
+ │   ├── home-component
+ │   ├── editar-criar-modal-component
+ │   ├── models
+ │   ├── services
+ │   └── categoria.map.ts
+ │
+ ├── environments
+ │
+ └── index.html
+```
+
+### Componentes principais
+
+| Componente | Função |
+|------------|--------|
+| DashboardComponent | Exibe o resumo financeiro |
+| HomeComponent | Tela inicial da aplicação |
+| EditarCriarModalComponent | Modal para criar ou editar transações |
+
+---
+
+# ⚙️ Pré-requisitos
+
+Antes de rodar o projeto você precisa ter instalado:
+
+- Node.js
+- NPM
+- Angular CLI
+
+Instalar Angular CLI:
+
+```bash
+npm install -g @angular/cli
+```
+
+---
+
+# 📥 Como Clonar o Projeto
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/ThiagoJ-Dev/AngularProjetoDapper.git
+```
+
+Entre na pasta do projeto:
+
+```bash
+cd AngularProjetoDapper
+```
+
+---
+
+# 📦 Instalar Dependências
+
+Execute o comando abaixo para instalar todas as dependências do projeto:
+
+```bash
+npm install
+```
+
+---
+
+# ▶️ Executar o Projeto
+
+Para iniciar o servidor de desenvolvimento execute:
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Depois abra no navegador:
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
+```
+http://localhost:4200
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+A aplicação será recarregada automaticamente sempre que você modificar algum arquivo.
 
-```bash
-ng generate --help
-```
+---
 
-## Building
+# 🔧 Build do Projeto
 
-To build the project run:
+Para gerar a versão de produção execute:
 
 ```bash
 ng build
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+O build será gerado na pasta:
 
-## Running unit tests
+```
+dist/
+```
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+---
+
+# 🧪 Testes
+
+Para rodar os testes unitários:
 
 ```bash
 ng test
 ```
 
-## Running end-to-end tests
+---
 
-For end-to-end (e2e) testing, run:
+# 📊 Funcionalidades do Sistema
 
-```bash
-ng e2e
-```
+✔️ Dashboard financeiro  
+✔️ Visualização de categorias de despesas  
+✔️ Criação de transações  
+✔️ Edição de transações  
+✔️ Integração com API backend  
+✔️ Atualização dinâmica dos dados  
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+---
 
-## Additional Resources
+# 🔗 Integração com Backend
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Este projeto consome uma API desenvolvida em:
+
+- ASP.NET Core
+- Dapper
+- SQL Server
+
+A API é responsável por:
+
+- Gerenciamento das transações
+- Processamento de dados financeiros
+- Geração de relatórios
+
+---
